@@ -15,11 +15,21 @@
 ```bat
 wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,UserName /Format:value | findstr /v "^$" >%computername%.txt && wmic CPU get Name,NumberOfLogicalProcessors /Format:value | findstr /v "^$" >>%computername%.txt && wmic DiskDrive get model,Name,size /Format:value | findstr /v "^$" >>%computername%.txt && wmic os get Caption,OSArchitecture /Format:value | findstr /v "^$" >>%computername%.txt && wmic csproduct get IdentifyingNumber /Format:value | findstr /v "^$" >>%computername%.txt && wmic NICCONFIG WHERE IPEnabled=true GET IPAddress,MACAddress /Format:value | findstr /v "^$" >>%computername%.txt && type %computername%.txt && start notepad %computername%.txt 
 ```
+> [!TIP]
+> Đã Join Domain
+
+> [!WARNING]
+> Chưa Join Domain
 
 ## Thông tin phần mềm ANTT
 ```bat
 wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor like'%McAfee%'" get name,version,installDate /Format:table >%computername%_ANTT.txt && type %computername%_ANTT.txt && start notepad %computername%_ANTT.txt 
 ```
+> [!TIP]
+> Đã cài Ajiant
+
+> [!WARNING]
+> Cần gỡ bỏ McAffe, Symantec
 
 ## Thông tin bản quyền OS, Office
 > [!TIP]
@@ -31,6 +41,12 @@ cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | 
 cscript //nologo" %PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
 start notepad %computername%_lic_status.txt 
 ```
+> [!TIP]
+> Đã Active bản quyền
+
+> [!WARNING]
+> Chưa Active bản quyền
+
 ##
 > [!NOTE]
 > 183.90.160.8
