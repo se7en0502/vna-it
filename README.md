@@ -52,6 +52,7 @@ wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor 
 > ```
 
 > [!CAUTION]
+> - Chưa cài Ajiant sẽ không trả về kết quả ở trên, hoặc trả về các kết quả dưới đây, hoặc kết quả trả về trống rỗng không có gì
 > - Cần gỡ bỏ McAffe, Symantec khi kết quả có các trường
 > ```
 > InstallDate  Name                                                 Version      
