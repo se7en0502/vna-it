@@ -1,7 +1,7 @@
 # Đánh giá CLDV CNTT
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
-:memo: [Quy Nhơn & Tuy Hòa](https://docs.google.com/spreadsheets/d/1-51cAubXJxnOi8DdWK_dNS_BCFiMDh6m?rtpof=true&usp=drive_fs)
+:memo: [Quy Nhơn & Tuy Hòa](https://docs.google.com/)
   
 > [!WARNING]
 > - [x] Check license OS, chua co can ghi vao cot kien nghi de Active
