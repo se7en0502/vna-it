@@ -11,7 +11,23 @@
 > [!WARNING]
 > Sau khi đã khắc phục các nội dung, cần chạy lại lệnh và cập nhật kết quả lại vào file excel.
 ---
-## Thông tin cấu hình máy tính
+## Quick copy
+```bat
+wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,UserName /Format:value | findstr /v "^$" >%computername%.txt && wmic CPU get Name,NumberOfLogicalProcessors /Format:value | findstr /v "^$" >>%computername%.txt && wmic DiskDrive get model,Name,size /Format:value | findstr /v "^$" >>%computername%.txt && wmic os get Caption,OSArchitecture /Format:value | findstr /v "^$" >>%computername%.txt && wmic csproduct get IdentifyingNumber /Format:value | findstr /v "^$" >>%computername%.txt && wmic NICCONFIG WHERE IPEnabled=true GET IPAddress,MACAddress /Format:value | findstr /v "^$" >>%computername%.txt && type %computername%.txt && start notepad %computername%.txt 
+```
+```bat
+wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor like'%McAfee%'" get name,version,installDate /Format:table >%computername%_ANTT.txt && type %computername%_ANTT.txt && start notepad %computername%_ANTT.txt 
+```
+```bat
+cscript //nologo c:\windows\system32\slmgr.vbs -xpr | findstr /v "^$" > %computername%_lic_status.txt 
+cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office16\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
+cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
+cscript //nologo" %PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
+start notepad %computername%_lic_status.txt 
+```
+---
+## Hướng dẫn chi tiết
+### Thông tin cấu hình máy tính
 ```bat
 wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,UserName /Format:value | findstr /v "^$" >%computername%.txt && wmic CPU get Name,NumberOfLogicalProcessors /Format:value | findstr /v "^$" >>%computername%.txt && wmic DiskDrive get model,Name,size /Format:value | findstr /v "^$" >>%computername%.txt && wmic os get Caption,OSArchitecture /Format:value | findstr /v "^$" >>%computername%.txt && wmic csproduct get IdentifyingNumber /Format:value | findstr /v "^$" >>%computername%.txt && wmic NICCONFIG WHERE IPEnabled=true GET IPAddress,MACAddress /Format:value | findstr /v "^$" >>%computername%.txt && type %computername%.txt && start notepad %computername%.txt 
 ```
@@ -24,7 +40,7 @@ wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,Us
 > - Chưa Join Domain khi câu lệnh trả về có thường có trường ```Domain=WORKGROUP```
 > - Cần khắc phục bằng cách Join domain
 ---
-## Thông tin phần mềm ANTT
+### Thông tin phần mềm ANTT
 ```bat
 wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor like'%McAfee%'" get name,version,installDate /Format:table >%computername%_ANTT.txt && type %computername%_ANTT.txt && start notepad %computername%_ANTT.txt 
 ```
@@ -56,7 +72,7 @@ wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor 
 > 20191107     SecurityAgentHotFix                                  1.0.3     
 > ```
 ---
-## Thông tin bản quyền OS, Office
+### Thông tin bản quyền OS, Office
 > [!TIP]
 > Chạy script nhớ gõ Enter thêm 2,3 lần
 ```bat
