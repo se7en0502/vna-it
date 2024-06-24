@@ -4,9 +4,9 @@
 :memo: [Quy Nhơn & Tuy Hòa](https://docs.google.com/)
   
 > [!WARNING]
-> - [x] Check license OS, chua co can ghi vao cot kien nghi de Active
-> - [x] Check license Office bao Mr Hung Active, Actice xong cap nhat thong tin lai vao file.
-> - [x] Go Phan mem Sabre
+> - [x] Check license OS, chưa có cần ghi vào cột kiến nghị để Active
+> - [x] Check license Office, chưa có báo Mr Hùng Active
+> - [x] Cần kiểm tra và gỡ phần mềm Sabre cũ không sử dụng nữa
 
 > [!CAUTION]
 > Sau khi đã khắc phục các nội dung, cần chạy lại và cập nhật kết quả lại vào file excel.
