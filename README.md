@@ -107,6 +107,10 @@ start notepad %computername%_lic_status.txt
 > 183.90.160.8
 > </details>
 
+
+
+
+
 <!-- 
 
 > [!NOTE]
