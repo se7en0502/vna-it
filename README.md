@@ -8,6 +8,8 @@
 > - [x] Check license Office bao Mr Hung Active, Actice xong cap nhat thong tin lai vao file.
 > - [x] Go Phan mem Sabre
 
+> [!CAUTION]
+> Sau khi đã khắc phục các nội dung, cần chạy lại và cập nhật kết quả lại vào file excel.
 
 ## Thông tin cấu hình máy tính
 ```bat
@@ -29,22 +31,17 @@ cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | 
 cscript //nologo" %PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
 start notepad %computername%_lic_status.txt 
 ```
+##
+> [!NOTE]
+> 183.90.160.8
 
 ## Related
 - [Script](https://drive.vietnamairlines.com/u/nzm6vrM5u66NObq-/Script?l)
 - [ANTT](https://drive.vietnamairlines.com/u/qZ3qQ4Wd61G7nepD/ANTT?l)
-
-
 - [Batch Files - WMIC (robvanderwoude.com)](https://www.robvanderwoude.com/wmic.php)
 - [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [SUPPORTED_LANGUAGES](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)
 - [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) 
-
-
-> [!NOTE]
-> 183.90.160.8
-
-
 
 
 <!-- 
