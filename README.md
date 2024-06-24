@@ -8,8 +8,8 @@
 > - [x] Check license Office, chưa có báo Mr Hùng Active
 > - [x] Cần kiểm tra và gỡ phần mềm Sabre cũ không sử dụng nữa
 
-> [!CAUTION]
-> Sau khi đã khắc phục các nội dung, cần chạy lại và cập nhật kết quả lại vào file excel.
+> [!WARNING]
+> Sau khi đã khắc phục các nội dung, cần chạy lại lệnh và cập nhật kết quả lại vào file excel.
 
 ## Thông tin cấu hình máy tính
 ```bat
@@ -18,7 +18,7 @@ wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,Us
 > [!TIP]
 > Đã Join Domain
 
-> [!WARNING]
+> [!CAUTION]
 > Chưa Join Domain
 
 ## Thông tin phần mềm ANTT
@@ -28,7 +28,7 @@ wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor 
 > [!TIP]
 > Đã cài Ajiant
 
-> [!WARNING]
+> [!CAUTION]
 > Cần gỡ bỏ McAffe, Symantec
 
 ## Thông tin bản quyền OS, Office
@@ -44,7 +44,7 @@ start notepad %computername%_lic_status.txt
 > [!TIP]
 > Đã Active bản quyền
 
-> [!WARNING]
+> [!CAUTION]
 > Chưa Active bản quyền
 
 ##
