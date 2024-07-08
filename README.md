@@ -1,7 +1,7 @@
 # Đánh giá CLDV CNTT
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
-:memo: [Pleiku & Buôn Ma Thuộc]([https://docs.google.com/](https://docs.google.com/spreadsheets/d/1-1weXJLMdqk_Cp80A4dgilkg2j_AkxMS/edit?usp=sharing&ouid=111727357198578251817&rtpof=true&sd=true))
+:memo: [Pleiku & Buôn Ma Thuộc](https://docs.google.com/](https://docs.google.com/spreadsheets/d/1-1weXJLMdqk_Cp80A4dgilkg2j_AkxMS/edit?usp=sharing&ouid=111727357198578251817&rtpof=true&sd=true)
   
 > [!WARNING]
 > - [x] Check license OS, chưa có cần ghi vào cột kiến nghị để Active
