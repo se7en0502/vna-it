@@ -2,7 +2,16 @@
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
 > :memo: [ASOC-NBA](https://docs.google.com)
-> - Các bước cần thực hiện:
+> - Thông tin trong các sheet trong file trên:
+>   - ASOC-NBA: ds các TTB kiểm kê, đánh giá
+>   - pc_info_2024Dec11: thông tin rà quét các máy tính qua pm Ajiant
+>   - ASOC-SL-Theo địa điểm: Thống kê số lượng các thiết bị group by cột Địa điểm lắp đặt ở sheet ASOC-NBA
+>   - ASOC-DS-Phòng: ds các phòng của ASOC
+>   - ASOC-DS-NV: ds nhân sự của ASOC
+>   - SN: thông tin rà quét các máy tính qua pm Ajiant (thông tin cũ)
+
+> [!TIP]    
+> Các bước cần thực hiện:
 > 1. Tiếp cận TTB, tìm MTS trong Sheet ```ASOC-NB```, rà soát, điền thông tin ```Tình trạng hoạt động```, ```Phòng```, ```Người sử dụng```, ```Địa điểm lắp đặt```. 
 > 2. Đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD
 > 3. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
