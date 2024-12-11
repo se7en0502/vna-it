@@ -1,7 +1,7 @@
 # Đánh giá CLDV CNTT
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
-:memo: [Pleiku & Buôn Ma Thuột](https://docs.google.com)
+:memo: [ASOC-NBA](https://docs.google.com)
   
 > [!WARNING]
 > - [x] Check license OS, chưa có cần ghi vào cột kiến nghị để Active
@@ -35,28 +35,45 @@ exit
 ```
 ---
 ## Hướng dẫn chi tiết
-### Thông tin cấu hình máy tính
-```bat
-wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,UserName /Format:value | findstr /v "^$" >%computername%.txt && wmic CPU get Name,NumberOfLogicalProcessors /Format:value | findstr /v "^$" >>%computername%.txt && wmic DiskDrive get model,Name,size /Format:value | findstr /v "^$" >>%computername%.txt && wmic os get Caption,OSArchitecture /Format:value | findstr /v "^$" >>%computername%.txt && wmic csproduct get IdentifyingNumber /Format:value | findstr /v "^$" >>%computername%.txt && wmic NICCONFIG WHERE IPEnabled=true GET IPAddress,MACAddress /Format:value | findstr /v "^$" >>%computername%.txt && type %computername%.txt && start notepad %computername%.txt 
+### Mâu kết quả trả về của câu lệnh lấy thông tin
+```
+Caption=IT-LINHNQ
+Domain=vna.corp.vietnamairlines.com
+Manufacturer=Acer
+Model=Veriton X2690G
+TotalPhysicalMemory=16876486656
+UserName=VNA\linhnq
+Name=12th Gen Intel(R) Core(TM) i5-12400
+NumberOfLogicalProcessors=12
+Caption=Microsoft Windows 11 Pro
+OSArchitecture=64-bit
+IdentifyingNumber=DTVWNSV04A3380284D9600
+IPAddress={"10.1.88.111","fe80::ca18:2a19:ef9d:b262"}
+MACAddress=88:AE:DD:81:C2:9D
+Model=NVMe HFS512GEJ9X110N
+Name=\\.\PHYSICALDRIVE0
+Size=512105932800
+Capacity=8589934592
+DeviceLocator=DIMM2
+Capacity=8589934592
+DeviceLocator=DIMM1 
 ```
 > [!TIP]
 > - Đã Join Domain khi câu lệnh trả về có trường ```Domain=vna.corp.vietnamairlines.com```
 > - Máy có một ổ cứng ```Name=\\.\PHYSICALDRIVE0```
 > - Máy có hai ổ cứng ```Name=\\.\PHYSICALDRIVE1```
-
+> - Máy có hai tham ram ```DeviceLocator=DIMM2```
 > [!CAUTION]
 > - Chưa Join Domain khi câu lệnh trả về có thường có trường ```Domain=WORKGROUP```
 > - Cần khắc phục bằng cách Join domain
 ---
 ### Thông tin phần mềm ANTT
-```bat
-wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor like'%McAfee%'" get name,version,installDate /Format:table >%computername%_ANTT.txt && type %computername%_ANTT.txt && start notepad %computername%_ANTT.txt 
-```
 > [!TIP]
 > - Đã cài Ajiant khi câu lệnh trả về
 >  ```
->  InstallDate  Name    Version  
-> 20240616     Ajiant  4.20.0   
+> InstallDate=20240627 
+> Name=Ajiant
+> Version=4.20.0  
 > ```
 
 > [!CAUTION]
@@ -82,15 +99,6 @@ wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor 
 > ```
 ---
 ### Thông tin bản quyền OS, Office
-> [!TIP]
-> Chạy script nhớ gõ Enter thêm 2,3 lần
-```bat
-cscript //nologo c:\windows\system32\slmgr.vbs -xpr | findstr /v "^$" > %computername%_lic_status.txt 
-cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office16\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
-cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
-cscript //nologo" %PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
-start notepad %computername%_lic_status.txt 
-```
 > [!TIP]
 > - Đã Active bản quyền OS khi có trường
 > ```
