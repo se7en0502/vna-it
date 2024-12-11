@@ -27,7 +27,7 @@
 > - [ ] Kiểm tra máy tính đã join domain chưa ?
 > - [ ] Kiểm tra máy tính đã Active bản quyền OS, Office ?
 > - [ ] Kiểm tra máy tính đã cài đặt phần mềm Ajiant ?
-> - [ ] Kiểm tra và gỡ phần mềm cũ: Sabre, McAfee ?
+> - [ ] Kiểm tra và gỡ phần mềm cũ: Sabre, McAfee, Symantec ... ?
 
 > [!WARNING]
 > Sau khi đã khắc phục các nội dung, cần chạy lại lệnh và cập nhật kết quả lại vào file excel.
