@@ -43,7 +43,7 @@ exit
 ```
 ---
 ## Hướng dẫn chi tiết
-### Mâu kết quả trả về của câu lệnh lấy thông tin
+### Thông tin cấu hình máy tính
 ```
 Caption=IT-LINHNQ
 Domain=vna.corp.vietnamairlines.com
