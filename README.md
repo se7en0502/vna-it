@@ -4,6 +4,7 @@
 > :memo: [ASOC-NBA](https://docs.google.com)
 > - Thông tin trong các sheet trong file trên:
 >   - ```ASOC-NBA```: ds các TTB kiểm kê, đánh giá
+>   - ```ASOC-NBA-Sheet-để-IN```: Sheet để in ra Biên bản kiểm kê
 >   - ```pc_info_2024Dec11```: thông tin rà quét các máy tính qua pm Ajiant
 >   - ```ASOC-SL-Theo địa điểm```: Thống kê số lượng các thiết bị group by cột ```Địa điểm lắp đặt``` ở sheet ```ASOC-NBA```
 >   - ```ASOC-DS-Phòng```: ds các phòng của ASOC
