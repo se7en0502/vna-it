@@ -13,17 +13,24 @@
 ---
 ## Quick copy
 ```bat
-wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,UserName /Format:value | findstr /v "^$" >%computername%.txt && wmic CPU get Name,NumberOfLogicalProcessors /Format:value | findstr /v "^$" >>%computername%.txt && wmic DiskDrive get model,Name,size /Format:value | findstr /v "^$" >>%computername%.txt && wmic os get Caption,OSArchitecture /Format:value | findstr /v "^$" >>%computername%.txt && wmic csproduct get IdentifyingNumber /Format:value | findstr /v "^$" >>%computername%.txt && wmic NICCONFIG WHERE IPEnabled=true GET IPAddress,MACAddress /Format:value | findstr /v "^$" >>%computername%.txt && type %computername%.txt && start notepad %computername%.txt 
-```
-```bat
-wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor like'%McAfee%'" get name,version,installDate /Format:table >%computername%_ANTT.txt && type %computername%_ANTT.txt && start notepad %computername%_ANTT.txt 
-```
-```bat
-cscript //nologo c:\windows\system32\slmgr.vbs -xpr | findstr /v "^$" > %computername%_lic_status.txt 
-cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office16\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
-cscript //nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
-cscript //nologo" %PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >> %computername%_lic_status.txt 
-start notepad %computername%_lic_status.txt 
+@echo off
+>%computername%.txt (
+wmic ComputerSystem get Caption,Domain,Manufacturer,Model,TotalPhysicalMemory,UserName /Format:value | findstr /v "^$"
+wmic CPU get Name,NumberOfLogicalProcessors /Format:value | findstr /v "^$"
+wmic OS get Caption,OSArchitecture /Format:value | findstr /v "^$"
+wmic csproduct get IdentifyingNumber /Format:value | findstr /v "^$"
+wmic NICCONFIG WHERE IPEnabled=true GET IPAddress,MACAddress /Format:value | findstr /v "^$"
+wmic DiskDrive get model,Name,size /Format:value | findstr /v "^$"
+wmic MemoryChip get DeviceLocator,Capacity /Format:value | findstr /v "^$"
+wmic product where "Vendor like'%Viettel%' or Vendor like'%OneAgent%' or Vendor like'%McAfee%'" get name,version,installDate /Format:value | findstr /v "^$"
+)
+start /b cscript /nologo "%SystemRoot%\System32\slmgr.vbs" -xpr | findstr /v "^$" >>%computername%.txt
+start /b cscript /nologo "%PROGRAMFILES%\Microsoft Office\Office16\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >>%computername%.txt
+start /b cscript /nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >>%computername%.txt
+start /b cscript /nologo "%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >>%computername%.txt
+start .
+start notepad %computername%.txt
+exit
 ```
 ---
 ## Hướng dẫn chi tiết
