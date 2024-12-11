@@ -2,18 +2,19 @@
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
 > :memo: [ASOC-NBA](https://docs.google.com)
-> Các bước cần thực hiện:
+> - Các bước cần thực hiện:
 > 1. Tiếp cận TTB, tìm MTS trong Sheet ASOC-NB, rà soát, điền thông tin Tình trạng hoạt động, Phòng, NSD, Địa điểm lắp đặt. 
 > 2. Đăng nhập máy tính, copy câu lệnh ở mục Quick copy bên dưới và chạy bằng CMD
 > 3. Kiểm tra thông tin máy tính đã có trong sheet pc_info bằng cách tìm kiếm theo tên máy hoặc IP
->    - Nếu đã có thông tin trong sheet pc_info
->    - Nếu chưa có thông tin trong sheet pc_info
-> 4.
+>    - Nếu đã có thông tin trong sheet pc_info thì chỉ cần ghi lại thông tin tên máy tính,Serial Number vào mục ghi chú
+>    - Nếu chưa có thông tin trong sheet pc_info cần lưu lại file thông tin 
   
 > [!WARNING]
-> - [x] Check license OS, chưa có cần ghi vào cột kiến nghị để Active
-> - [x] Check license Office, chưa có báo Mr Hùng Active
-> - [x] Cần kiểm tra và gỡ phần mềm Sabre cũ không sử dụng nữa
+> - [ ] Kiểm tra tên máy tính đã theo chuẩn chưa ?
+> - [ ] Kiểm tra máy tính đã join domain chưa ?
+> - [ ] Kiểm tra máy tính đã Active bản quyền OS, Office
+> - [ ] Kiểm tra 
+> - [ ] Kiểm tra và gỡ phần mềm Sabre cũ không sử dụng nữa
 
 > [!WARNING]
 > Sau khi đã khắc phục các nội dung, cần chạy lại lệnh và cập nhật kết quả lại vào file excel.
