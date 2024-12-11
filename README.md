@@ -10,7 +10,8 @@
 >   - ```ASOC-DS-Phòng```: ds các phòng của ASOC
 >   - ```ASOC-DS-NV```: ds nhân sự của ASOC
 >   - ```SN```: thông tin rà quét các máy tính qua pm Ajiant (thông tin cũ)
->   - ![image](https://github.com/user-attachments/assets/5eb72794-1c75-45b9-8a6e-c98dce1810fd)
+> - Lịch sự kiến:
+>   ![image](https://github.com/user-attachments/assets/5eb72794-1c75-45b9-8a6e-c98dce1810fd)
 
 
 > [!TIP]    
