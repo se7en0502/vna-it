@@ -3,12 +3,12 @@
 > [!IMPORTANT]
 > :memo: [ASOC-NBA](https://docs.google.com)
 > - Thông tin trong các sheet trong file trên:
->   - ASOC-NBA: ds các TTB kiểm kê, đánh giá
->   - pc_info_2024Dec11: thông tin rà quét các máy tính qua pm Ajiant
->   - ASOC-SL-Theo địa điểm: Thống kê số lượng các thiết bị group by cột Địa điểm lắp đặt ở sheet ASOC-NBA
->   - ASOC-DS-Phòng: ds các phòng của ASOC
->   - ASOC-DS-NV: ds nhân sự của ASOC
->   - SN: thông tin rà quét các máy tính qua pm Ajiant (thông tin cũ)
+>   - ```ASOC-NBA```: ds các TTB kiểm kê, đánh giá
+>   - ```pc_info_2024Dec11```: thông tin rà quét các máy tính qua pm Ajiant
+>   - ```ASOC-SL-Theo địa điểm```: Thống kê số lượng các thiết bị group by cột ```Địa điểm lắp đặt``` ở sheet ```ASOC-NBA```
+>   - ```ASOC-DS-Phòng```: ds các phòng của ASOC
+>   - ```ASOC-DS-NV```: ds nhân sự của ASOC
+>   - ```SN```: thông tin rà quét các máy tính qua pm Ajiant (thông tin cũ)
 
 > [!TIP]    
 > Các bước cần thực hiện:
