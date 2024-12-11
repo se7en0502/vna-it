@@ -7,7 +7,7 @@
 > 2. Đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD
 > 3. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
 >    - Nếu đã có thông tin trong sheet ```pc_info``` thì chỉ cần ghi lại thông tin ```Tên máy tính```, ```Serial Number``` vào mục ```Ghi chú``` của sheet ```ASOC-NB```
->    - Nếu chưa có thông tin trong sheet ```pc_info``` cần lưu lại file thông tin 
+>    - Nếu chưa có thông tin trong sheet ```pc_info``` cần lưu lại file thông tin kết quả chạy lệnh.
   
 > [!WARNING]
 > - [ ] Kiểm tra tên máy tính đã theo chuẩn chưa ?
