@@ -63,6 +63,7 @@ DeviceLocator=DIMM1
 > - Máy có một ổ cứng ```Name=\\.\PHYSICALDRIVE0```
 > - Máy có hai ổ cứng ```Name=\\.\PHYSICALDRIVE1```
 > - Máy có hai tham ram ```DeviceLocator=DIMM2```
+
 > [!CAUTION]
 > - Chưa Join Domain khi câu lệnh trả về có thường có trường ```Domain=WORKGROUP```
 > - Cần khắc phục bằng cách Join domain
