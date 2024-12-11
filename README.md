@@ -3,11 +3,11 @@
 > [!IMPORTANT]
 > :memo: [ASOC-NBA](https://docs.google.com)
 > Các bước cần thực hiện:
->  - 1. Đăng nhập máy tính, copy câu lệnh ở mục Quick copy bên dưới và chạy bằng CMD
->  - 2. Kiểm tra thông tin máy tính đã có trong sheet pc_info bằng cách tìm kiếm theo tên máy hoặc IP
->     - Nếu đã có thông tin trong sheet pc_info
->     - Nếu chưa có thông tin trong sheet pc_info
->  - 3.
+> 1. Đăng nhập máy tính, copy câu lệnh ở mục Quick copy bên dưới và chạy bằng CMD
+> 2. Kiểm tra thông tin máy tính đã có trong sheet pc_info bằng cách tìm kiếm theo tên máy hoặc IP
+>    - Nếu đã có thông tin trong sheet pc_info
+>    - Nếu chưa có thông tin trong sheet pc_info
+> 3.
   
 > [!WARNING]
 > - [x] Check license OS, chưa có cần ghi vào cột kiến nghị để Active
