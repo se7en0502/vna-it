@@ -10,7 +10,7 @@
 
 > [!TIP]    
 > Các bước cần thực hiện:
-> 1. Tiếp cận TTB, đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD, xem câu lệnh để biết đã join domain, têm máy tính đã đặt chuẩn, ajiant đã cài bản mới nhất, os /office đã active ...
+> 1. Tiếp cận TTB, đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD, xem câu lệnh để biết đã join domain, tên máy tính đã đặt chuẩn, ajiant đã cài bản mới nhất, os /office đã active ...
 > 2. Trong Sheet ```ASOC-NBA```, rà soát, điền đầy đủ thông tin vào các cột:
 >    - ```Ngày kiểm kê```
 >    - ```Tình trạng hoạt động```
