@@ -10,8 +10,7 @@
 >   - ```ASOC-DS-Phòng```: ds các phòng của ASOC
 >   - ```ASOC-DS-NV```: ds nhân sự của ASOC
 >   - ```SN```: thông tin rà quét các máy tính qua pm Ajiant (thông tin cũ)
-> - Lịch dự kiến:
->   ![image](https://github.com/user-attachments/assets/5eb72794-1c75-45b9-8a6e-c98dce1810fd)
+
 
 
 > [!TIP]    
@@ -26,7 +25,8 @@
 > 4. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
 >    - Nếu đã có thông tin trong sheet ```pc_info``` thì chỉ cần ghi lại thông tin ```Tên máy tính```, ```Serial Number``` vào sheet ```ASOC-NBA```
 >    - Nếu chưa có thông tin trong sheet ```pc_info``` cần lưu lại file thông tin kết quả chạy lệnh.
-  
+> - Lịch dự kiến:
+>   ![image](https://github.com/user-attachments/assets/5eb72794-1c75-45b9-8a6e-c98dce1810fd) 
 > [!WARNING]
 > - [ ] Kiểm tra tên máy tính đã theo chuẩn chưa ?
 > - [ ] Kiểm tra máy tính đã join domain chưa ?
