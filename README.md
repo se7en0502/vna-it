@@ -149,7 +149,7 @@ DeviceLocator=DIMM1
 ---
 ## Related
 - [Script](https://drive.vietnamairlines.com/u/nzm6vrM5u66NObq-/Script?l)
-- [ANTT](https://drive.vietnamairlines.com/u/qZ3qQ4Wd61G7nepD/ANTT?l)
+- [ANTT](https://drive.vietnamairlines.com/u/lw8dq7sPHDaFDx2r/ANTT?l)
 - [Batch Files - WMIC (robvanderwoude.com)](https://www.robvanderwoude.com/wmic.php)
 - [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [SUPPORTED_LANGUAGES](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)
