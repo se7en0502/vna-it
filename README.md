@@ -27,6 +27,7 @@
 >    - Nếu chưa có thông tin trong sheet ```pc_info``` cần lưu lại file thông tin kết quả chạy lệnh.
 > - Lịch dự kiến:
 >   ![image](https://github.com/user-attachments/assets/5eb72794-1c75-45b9-8a6e-c98dce1810fd) 
+
 > [!WARNING]
 > - [ ] Kiểm tra tên máy tính đã theo chuẩn chưa ?
 > - [ ] Kiểm tra máy tính đã join domain chưa ?
