@@ -1,4 +1,4 @@
-# Đánh giá CLDV CNTT
+![image](https://github.com/user-attachments/assets/cd7ba9d7-c59c-4010-ac4d-7ed56309c212)# Đánh giá CLDV CNTT
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
 > :memo: [ASOC-NBA](https://docs.google.com/spreadsheets/d/1--E3nhf2OdhOqY0AESc53p3NlBsF4RX1/edit?usp=sharing&ouid=111727357198578251817&rtpof=true&sd=true)
@@ -16,9 +16,14 @@
 
 > [!TIP]    
 > Các bước cần thực hiện:
-> 1. Tiếp cận TTB, tìm MTS trong Sheet ```ASOC-NBA```, rà soát, điền thông tin ```Tình trạng hoạt động```, ```Phòng```, ```Người sử dụng```, ```Địa điểm lắp đặt```. 
-> 2. Đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD
-> 3. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
+> 1. Tiếp cận TTB, Đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD
+> 2. Trong Sheet ```ASOC-NBA```, rà soát, điền đầy đủ thông tin vào các cột:
+>    - ``` Ngày kiểm kê```
+>    - ```Tình trạng hoạt động```
+>    - ```Phòng/ Đơn vị (theo TC hành chính)```
+>    - ```Địa điểm lắp đặt (Vị trí địa lý)```
+>    - ```Cấu hình máy tính```. 
+> 4. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
 >    - Nếu đã có thông tin trong sheet ```pc_info``` thì chỉ cần ghi lại thông tin ```Tên máy tính```, ```Serial Number``` vào sheet ```ASOC-NBA```
 >    - Nếu chưa có thông tin trong sheet ```pc_info``` cần lưu lại file thông tin kết quả chạy lệnh.
   
