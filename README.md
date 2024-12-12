@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/cd7ba9d7-c59c-4010-ac4d-7ed56309c212)# Đánh giá CLDV CNTT
+# Đánh giá CLDV CNTT
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
 > :memo: [ASOC-NBA](https://docs.google.com/spreadsheets/d/1--E3nhf2OdhOqY0AESc53p3NlBsF4RX1/edit?usp=sharing&ouid=111727357198578251817&rtpof=true&sd=true)
