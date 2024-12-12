@@ -5,26 +5,21 @@
 > - Thông tin trong các sheet trong file trên:
 >   - ```ASOC-NBA```: ds các TTB kiểm kê, đánh giá
 >   - ```ASOC-NBA-Sheet-để-IN```: Sheet để in ra Biên bản kiểm kê
->   - ```pc_info_2024Dec11```: thông tin rà quét các máy tính qua pm Ajiant
->   - ```ASOC-SL-Theo địa điểm```: Thống kê số lượng các thiết bị group by cột ```Địa điểm lắp đặt``` ở sheet ```ASOC-NBA```
 >   - ```ASOC-DS-Phòng```: ds các phòng của ASOC
 >   - ```ASOC-DS-NV```: ds nhân sự của ASOC
->   - ```SN```: thông tin rà quét các máy tính qua pm Ajiant (thông tin cũ)
-
-
 
 > [!TIP]    
 > Các bước cần thực hiện:
-> 1. Tiếp cận TTB, Đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD
+> 1. Tiếp cận TTB, đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD, xem câu lệnh để biết đã join domain, têm máy tính đã đặt chuẩn, ajiant đã cài bản mới nhất, os /office đã active ...
 > 2. Trong Sheet ```ASOC-NBA```, rà soát, điền đầy đủ thông tin vào các cột:
 >    - ```Ngày kiểm kê```
 >    - ```Tình trạng hoạt động```
 >    - ```Phòng/ Đơn vị (theo TC hành chính)```
 >    - ```Địa điểm lắp đặt (Vị trí địa lý)```
->    - ```Cấu hình máy tính```. 
+>    - ```Cấu hình máy tính```: copy nội dung đã chạy bằng câu lệnh vào
+>    - ```Ghi chú```: Các thiết bị có tồn tại theo MTS ```OK``` , thiết bị điện thoại IP ghi thêm số điện thoại, thiết bị màn hình máy tính ghi thêm đi theo PC có MTS gì, ..., ghi chú yêu cầu đổi tên theo chuẩn, join domain, gỡ bõ phần mềm, ghi chú về việc nâng cấp thiết bị
 > 4. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
->    - Nếu đã có thông tin trong sheet ```pc_info``` thì chỉ cần ghi lại thông tin ```Tên máy tính```, ```Serial Number``` vào sheet ```ASOC-NBA```
->    - Nếu chưa có thông tin trong sheet ```pc_info``` cần lưu lại file thông tin kết quả chạy lệnh.
+>   
 > - Lịch dự kiến:
 >   ![image](https://github.com/user-attachments/assets/5eb72794-1c75-45b9-8a6e-c98dce1810fd) 
 
