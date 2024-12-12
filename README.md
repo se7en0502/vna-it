@@ -159,6 +159,8 @@ DeviceLocator=DIMM1
 > <details>
 > <summary>linhnq</summary>
 > 183.90.160.8
+> HBKNV-WYP4H-673Y3-FBQ4J-W46V 
+> DKN6V-FK4KV-9MWTD-TTG6R-GXXY  
 > </details>
 
 
