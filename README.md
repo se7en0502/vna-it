@@ -18,7 +18,7 @@
 > Các bước cần thực hiện:
 > 1. Tiếp cận TTB, Đăng nhập máy tính, copy câu lệnh ở mục ```Quick copy``` bên dưới và chạy bằng CMD
 > 2. Trong Sheet ```ASOC-NBA```, rà soát, điền đầy đủ thông tin vào các cột:
->    - ``` Ngày kiểm kê```
+>    - ```Ngày kiểm kê```
 >    - ```Tình trạng hoạt động```
 >    - ```Phòng/ Đơn vị (theo TC hành chính)```
 >    - ```Địa điểm lắp đặt (Vị trí địa lý)```
