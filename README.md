@@ -17,7 +17,7 @@
 >    - ```Phòng/ Đơn vị (theo TC hành chính)```
 >    - ```Địa điểm lắp đặt (Vị trí địa lý)```
 >    - ```Cấu hình máy tính```: copy nội dung đã chạy bằng câu lệnh vào
->    - ```Ghi chú```: Các thiết bị có tồn tại theo MTS ```OK``` , thiết bị điện thoại IP ghi thêm số điện thoại, thiết bị màn hình máy tính ghi thêm đi theo PC có MTS gì, ..., ghi chú yêu cầu đổi tên theo chuẩn, join domain, gỡ bõ phần mềm, ghi chú về việc nâng cấp thiết bị
+>    - ```Ghi chú```: Các thiết bị có tồn tại theo MTS ghi chú ```OK``` , thiết bị điện thoại IP ghi thêm số điện thoại, thiết bị màn hình máy tính ghi thêm đi theo PC có MTS gì, ..., ghi chú yêu cầu đổi tên theo chuẩn, join domain, gỡ bõ phần mềm, ghi chú về việc nâng cấp thiết bị
 > 4. Kiểm tra thông tin máy tính đã có trong sheet ```pc_info``` bằng cách tìm kiếm theo ```Tên máy tính``` hoặc ```IP```
 >   
 > - Lịch dự kiến:
