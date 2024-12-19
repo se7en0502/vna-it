@@ -1,7 +1,7 @@
 # Đánh giá CLDV CNTT
 ## File danh sách đánh giá kiểm kê TS, TTB
 > [!IMPORTANT]
-> :memo: [ASOC-NBA](https://docs.google.com/spreadsheets/d/1-3WJDmmfyM5Sui6nnZUhoJ2_P4SxQrDe/edit?usp=sharing&ouid=111727357198578251817&rtpof=true&sd=true)
+> :memo: [ASOC-NBA](https://docs.google.com/)
 > - Thông tin trong các sheet trong file trên:
 >   - ```ASOC-NBA```: ds các TTB kiểm kê, đánh giá
 >   - ```ASOC-NBA-Sheet-để-IN```: Sheet để in ra Biên bản kiểm kê
